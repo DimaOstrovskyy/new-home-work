@@ -1,0 +1,35 @@
+.hover-text {
+    color: black;
+}
+.hover-text:hover {
+    color: rgb(57, 141, 250);
+}
+.first-half {
+    color: rgb(57, 141, 250);
+}
+
+.back-ground {
+    background-color: rgb(23, 3, 39);
+    font-size: 30px;
+    height: 244px;
+}
+
+.text {
+    color: white;
+}
+.text2 {
+    color: white;
+    background-color: rgb(1, 119, 165);
+    font-size: 20px;
+    width: 164px;
+    height: 40px;
+}
+.text3 {
+    background-color: rgb(23, 3, 39);
+}
+.text4 {
+    color: white;
+}
+.text5 {
+    color: white;
+}
