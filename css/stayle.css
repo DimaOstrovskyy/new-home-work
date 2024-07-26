@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
 .hover-text {
     color: black;
 }
@@ -5,24 +11,28 @@
     color: rgb(57, 141, 250);
 }
 .first-half {
+    font-family: "Raleway";
     color: rgb(57, 141, 250);
 }
 
 .back-ground {
+    font-family: "Roboto";
     background-color: rgb(23, 3, 39);
     font-size: 30px;
     height: 244px;
+    text-align: center;
 }
 
 .text {
     color: white;
 }
 .text2 {
+    font-family: "Roboto";
     color: white;
     background-color: rgb(1, 119, 165);
     font-size: 20px;
-    width: 164px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
 }
 .text3 {
     background-color: rgb(23, 3, 39);
@@ -32,4 +42,20 @@
 }
 .text5 {
     color: white;
+}
+
+.text6 {
+    font-family: "Roboto";
+}
+
+section h3 {
+    font-family: "Roboto";
+}
+
+p {
+    font-family: "Roboto";
+}
+
+h2 {
+    font-family: "Roboto";
 }
