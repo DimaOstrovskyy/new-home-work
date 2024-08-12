@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 body {
     font-family: "Roboto";
+    margin: 0;
 }
 
 .hover-text {
@@ -30,6 +30,7 @@ body {
 .main-h2--span {
     color: white;
 }
+
 .header-section--p {
     color: white;
     background-color: rgb(1, 119, 165);
@@ -37,14 +38,24 @@ body {
     width: 200px;
     height: 50px;
 }
+
 .footer {
     background-color: rgb(23, 3, 39);
 }
+
 .footer-h2--span2-logo {
     color: white;
 }
+
 .footer-div {
     color: white;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    
 }
 
 .header-nav--ul {
@@ -54,6 +65,8 @@ body {
 .header-nav--ul a {
     color: black;
     text-decoration: none;
+
+
 }
 
 .header-nav--ul a:hover {
