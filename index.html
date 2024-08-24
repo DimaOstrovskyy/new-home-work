@@ -10,73 +10,83 @@
 </head>
 
 <body>
-    <h1> <span class="body-span--logo">Web</span>
-        <span>Studio</span>
-    </h1>
-    <header>
-        <nav>
+    <header class="header">
+        <h1 class="body_h1"><span class="body-span--logo">Web</span>
+            <span>Studio</span>
+        </h1>
+        <nav class="header_nav">
             <ul class="header-nav--ul">
                 <li><a href="#">Студія</a></li>
                 <li><a href="#">Партфоліо</a></li>
                 <li><a href="#">Контакти</a></li>
-                <li><a href="#">Website@gmail.com</a></li>
-                <li><a href="#">+38 096 223 24 56</a></li>
             </ul>
+            <div class="header_nav--contact">
+                <a class="header_nav--contact-a" href="#">info@devstudio.com</a>
+                <a class="header_nav--contact-a2" href="#">+38 096 223 24 56</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2 class="main-h2--back-ground"><span class="main-h2--span">ЕФКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</span></h2>
-        <section>
-            <p class="header-section--p">Замовити послугу</p>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <div>
-                <p>
-                    Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-                    Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                    Так само консультація з широким активом значною мірою зумовлює.
-                    Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+    <div class="div_container">
+        <div class="div_container--content">
+            <h2 class="main-h2--back-ground">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h2>
+            <button class="header-section--btn">Замовити послугу</button>
+        </div>
+    </div>
+    <main class="main">
+        <section class="main_section--container">
+            <div class="main_section--info">
+                <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="main_section_div--p">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                    позиції.</p>
             </div>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <div>
-                <p>
-                    Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <div class="main_section--info">
+                <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="main_section_div--p">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+                    себе.</p>
             </div>
-            <h3>ПЛАНУВАННЯ</h3>
-            <div>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+            <div class="main_section--info">
+                <h3>ПЛАНУВАННЯ</h3>
+                <p class="main_section_div--p">Так само консультація з широким активом значною мірою зумовлює.</p>
             </div>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <div>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <div class="main_section--info">
+                <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="main_section_div--p">Значимість цих проблем настільки очевидна, що реалізація планових
+                    завдань.</p>
+            </div>
+
+        </section>
+      
+        <section class="section_about_work">
+            <h2 class="section_about_work--h2">Чим ми займаємось</h2>
+            <div class="section_about_work--div">
+                <img class="section_about_work--img" src="/images/first.jpg" alt="">
+                <img class="section_about_work--img" src="/images/second.png" alt="">
+                <img class="section_about_work--img" src="/images/thirt.png" alt="">
             </div>
         </section>
-        <h2>Чим ми займаємось</h2>
-        <section>
-            <div><img src="/images/first.jpg" alt=""></div>
-            <div><img src="/images/second.png" alt=""></div>
-            <div><img src="/images/thirt.png" alt=""></div>
-        </section>
-        <h2>Наша команда</h2>
-        <section>
-            <div>
-                <img src="/images/1team.jpg" width="300" height="300" alt="учасник команди 1 ">
-                <h3>Ігор Дем'янко</h3>
-                <p>Product Desginer</p>
-            </div>
-            <div>
-                <img src="/images/2team.jpg" width="300" height="300" alt="учасник команди 2 ">
-                <h3>Ольга Рєпіна</h3>
-                <p>Frontend Developer</p>
-            </div>
-            <div>
-                <img src="/images/3team.jpg" width="300" height="300" alt="учасник команди 3">
-                <h3>Микола Тарасов</h3>
-                <p>Marketing</p>
-            </div>
-            <div>
-                <img src="/images/4team.png" alt="учасник команди 4">
-                <h3>Михайло Єрмаков</h3>
-                <p>UL Desginer</p>
+        <section class="section_about_team">
+            <h2 class="section_about_team--h2">Наша команда</h2>
+            <div class="section_about_team--content">
+                <div class="section_about_team--info">
+                    <img class="section_about_team--img" src="/images/1team.jpg"  alt="учасник команди 1 ">
+                    <h3 class="section_about_team--h3">Ігор Дем'янко</h3>
+                    <p class="section_about_team--p">Product Desginer</p>
+                </div>
+                <div class="section_about_team--info">
+                    <img class="section_about_team--img" src="/images/2team.jpg"  alt="учасник команди 2 ">
+                    <h3 class="section_about_team--h3">Ольга Рєпіна</h3>
+                    <p class="section_about_team--p">Frontend Developer</p>
+                </div>
+                <div class="section_about_team--info">
+                    <img class="section_about_team--img" src="/images/3team.jpg"  alt="учасник команди 3">
+                    <h3 class="section_about_team--h3">Микола Тарасов</h3>
+                    <p class="section_about_team--p">Marketing</p>
+                </div>
+                <div class="section_about_team--info">
+                    <img class="section_about_team--img" src="/images/4team.png" alt="учасник команди 4">
+                    <h3 class="section_about_team--h3">Михайло Єрмаков</h3>
+                    <p class="section_about_team--p">UL Desginer</p>
+                </div>
             </div>
         </section>
     </main>
@@ -85,9 +95,9 @@
             <span class="footer-h2--span2-logo">Studio</span>
         </h2>
         <div class="footer-div">
-            <p>м. Київ,пр-т Лесі Українки,2б</p>
-            <p>Website@gmail.com</p>
-            <p>+38 096 223 24 56</p>
+            <p class="footer_div--p">м. Київ,пр-т Лесі Українки,2б</p>
+            <p class="footer_div--p">Website@gmail.com</p>
+            <p class="footer_div--p">+38 096 223 24 56</p>
         </div>
     </footer>
 </body>

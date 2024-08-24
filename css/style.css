@@ -3,11 +3,15 @@
 
 body {
     font-family: "Roboto";
-    margin: 0;
+    margin: 0 auto;
 }
 
 .hover-text {
     color: black;
+}
+
+.body_h1 {
+    margin-right: 93px;
 }
 
 .body-span--logo {
@@ -16,38 +20,85 @@ body {
 }
 
 .footer-h2--span-logo {
+    font-size: 26px;
     font-family: "Raleway";
     color: rgb(57, 141, 250);
 }
 
+
+.div_container--content {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.div_container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #2F303A;
+
+}
+
+.main_section--info {
+    max-width: 270px;
+    margin: 0 25px 0 25px;
+}
+
+.main_section--container{
+    margin: 94px 0 118px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .main-h2--back-ground {
-    background-color: rgb(23, 3, 39);
-    font-size: 30px;
-    height: 244px;
+    letter-spacing: 6%;
+    color: white;
+    font-size: 44px;
+    max-width: 696px;
     text-align: center;
+  
 }
 
-.main-h2--span {
-    color: white;
-}
-
-.header-section--p {
-    color: white;
-    background-color: rgb(1, 119, 165);
-    font-size: 20px;
-    width: 200px;
+.header-section--btn {
+    margin-top: 30px;
+    width: 216px;
     height: 50px;
+    margin-bottom: 200px;
+    border: 0;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026
 }
 
-.footer {
-    background-color: rgb(23, 3, 39);
+footer {
+    padding-top: 60px;
+    padding-left: 215px;
+    margin: 0 auto;
+    height: 1600px;
+    height: 252px;
+    background-color: #2F303A;
 }
 
 .footer-h2--span2-logo {
+    font-size: 26px;
     color: white;
 }
 
 .footer-div {
+ 
+   
     color: white;
 }
 
@@ -58,11 +109,25 @@ li {
     
 }
 
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav {
+    display: flex;
+}
+
 .header-nav--ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+    
 }
 
 .header-nav--ul a {
+    transition: all .2s;
     color: black;
     text-decoration: none;
 
@@ -71,4 +136,126 @@ li {
 
 .header-nav--ul a:hover {
     color: rgb(57, 141, 250);
+   
+}
+
+
+ .header_nav--contact { 
+    margin-left: 344px;
+}
+
+.header_nav--contact-a {
+    margin-right: 50px;
+    color: #757575;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+
+}
+
+
+.header_nav--contact-a2 {
+    color: #757575;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+
+}
+
+
+.header_nav--contact-a:hover {
+    color:#2196F3;
+}
+
+
+.header_nav--contact-a2:hover {
+    color:#2196F3;
+}
+
+.footer_div--p {
+    transition: all .2s;
+    color:  white;
+    opacity: 60%;
+}
+
+
+.footer_div--p:hover {
+    color:  white;
+    opacity: 100%;
+}
+
+
+.main_section_div--p {
+    color: #757575;
+}
+
+
+
+.section_about_work--h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+.section_about_work {
+    margin-bottom: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.section_about_work--img {
+    margin: 0 15px 0 15px;
+}
+
+
+.section_about_team {
+    background-color: #F5F4FA;
+    padding-bottom: 94px;
+  
+    
+}
+
+.section_about_team--img {
+    width: 270px;
+    height: 260px;
+}
+
+
+.section_about_team--h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    text-align: center;
+    padding: 94px 0 50px 0;
+    margin: 0;
+}
+
+.section_about_team--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_about_team--info {
+    margin: 0 15px 0 15px;
+    background-color: white;
+    height: 368px;
+}
+
+
+.section_about_team--h3 {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+.section_about_team--p {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
 }
