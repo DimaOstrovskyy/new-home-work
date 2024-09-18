@@ -27,10 +27,10 @@ body {
 
 
 .div_container--content {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -48,7 +48,53 @@ body {
     margin: 0 25px 0 25px;
 }
 
-.main_section--container{
+
+.main_section--antena::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-image: url(/images/antena.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+
+.main_section--clock::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-image: url(/images/clock.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+.main_section--computer::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-image: url(/images/computer.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+.main_section--starboy::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-image: url(/images/starboy.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+.main_section--container {
     margin: 94px 0 118px 0;
     display: flex;
     justify-content: center;
@@ -60,8 +106,40 @@ body {
     font-size: 44px;
     max-width: 696px;
     text-align: center;
-  
+
 }
+
+
+
+footer {
+    padding-top: 60px;
+    padding-left: 215px;
+    margin: 0 auto;
+    height: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+.footer-h2--span2-logo {
+    font-size: 26px;
+    color: white;
+}
+
+.footer-div {
+
+
+    color: white;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+
+
 
 .header-section--btn {
     margin-top: 30px;
@@ -82,33 +160,6 @@ body {
     box-shadow: 0px 4px 4px 0px #00000026
 }
 
-footer {
-    padding-top: 60px;
-    padding-left: 215px;
-    margin: 0 auto;
-    height: 1600px;
-    height: 252px;
-    background-color: #2F303A;
-}
-
-.footer-h2--span2-logo {
-    font-size: 26px;
-    color: white;
-}
-
-.footer-div {
- 
-   
-    color: white;
-}
-
-
-li {
-    display: inline-block;
-    margin-right: 30px;
-    
-}
-
 .header {
     align-items: center;
     display: flex;
@@ -123,7 +174,7 @@ li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+
 }
 
 .header-nav--ul a {
@@ -136,11 +187,11 @@ li {
 
 .header-nav--ul a:hover {
     color: rgb(57, 141, 250);
-   
+
 }
 
 
- .header_nav--contact { 
+.header_nav--contact {
     margin-left: 344px;
 }
 
@@ -164,23 +215,23 @@ li {
 
 
 .header_nav--contact-a:hover {
-    color:#2196F3;
+    color: #2196F3;
 }
 
 
 .header_nav--contact-a2:hover {
-    color:#2196F3;
+    color: #2196F3;
 }
 
 .footer_div--p {
     transition: all .2s;
-    color:  white;
+    color: white;
     opacity: 60%;
 }
 
 
 .footer_div--p:hover {
-    color:  white;
+    color: white;
     opacity: 100%;
 }
 
@@ -216,8 +267,8 @@ li {
 .section_about_team {
     background-color: #F5F4FA;
     padding-bottom: 94px;
-  
-    
+
+
 }
 
 .section_about_team--img {
