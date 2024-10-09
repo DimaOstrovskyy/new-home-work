@@ -54,7 +54,7 @@ body {
     display: block;
     width: 270px;
     height: 120px;
-    background-image: url(/images/antena.png);
+    background-image: url(/images/antena.jpg);
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -66,7 +66,7 @@ body {
     display: block;
     width: 270px;
     height: 120px;
-    background-image: url(/images/clock.png);
+    background-image: url(/images/clock.jpg);
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -77,7 +77,7 @@ body {
     display: block;
     width: 270px;
     height: 120px;
-    background-image: url(/images/computer.png);
+    background-image: url(/images/computer.jpg);
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -88,7 +88,7 @@ body {
     display: block;
     width: 270px;
     height: 120px;
-    background-image: url(/images/starboy.png);
+    background-image: url(/images/starboy.jpg);
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -295,6 +295,12 @@ li {
     margin: 0 15px 0 15px;
     background-color: white;
     height: 368px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+    box-shadow: 0px 1px 1px 0px #00000024;
+
+    box-shadow: 0px 1px 3px 0px #0000001F;
+
 }
 
 
