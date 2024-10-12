@@ -31,7 +31,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
 .div_container {
@@ -39,8 +38,8 @@ body {
     display: flex;
     justify-content: center;
     height: 600px;
-    background-color: #2F303A;
-
+    background-color: #2F303A66;
+    background-image: url(/images/Img.png);
 }
 
 .main_section--info {
@@ -268,7 +267,6 @@ li {
     background-color: #F5F4FA;
     padding-bottom: 94px;
 
-
 }
 
 .section_about_team--img {
@@ -289,12 +287,13 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .section_about_team--info {
     margin: 0 15px 0 15px;
     background-color: white;
-    height: 368px;
+    height: 428px;
     box-shadow: 0px 2px 1px 0px #00000033;
 
     box-shadow: 0px 1px 1px 0px #00000024;
@@ -315,4 +314,31 @@ li {
     font-size: 16px;
     color: #757575;
     text-align: center;
+}
+
+.section_container--media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    width: 206px;
+}
+
+.section_about_team--media:hover:first-child {
+    content: url(/images/instagram2.png);
+}
+
+.section_about_team--media:hover:nth-child(2) {
+    content: url(/images/twitter2.png);
+}
+
+.section_about_team--media:hover:nth-child(3) {
+    content: url(/images/facebock2.png);
+}
+
+.section_about_team--media:hover:nth-child(4) {
+    content: url(/images/in2.png);
 }
