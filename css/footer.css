@@ -1,0 +1,37 @@
+.footer-h2--span-logo {
+    font-size: 26px;
+    font-family: "Raleway";
+    color: rgb(57, 141, 250);
+}
+
+footer {
+    padding-top: 60px;
+    padding-left: 215px;
+    margin: 0 auto;
+    height: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+.footer-h2--span2-logo {
+    font-size: 26px;
+    color: white;
+}
+
+.footer-div {
+    padding-top: 20px;
+    color: white;
+}
+
+.footer_div--p {
+    padding-bottom: 12px;
+    transition: all .2s;
+    color: white;
+    opacity: 60%;
+}
+
+
+.footer_div--p:hover {
+    color: white;
+    opacity: 100%;
+}

@@ -1,31 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: "Roboto";
-    margin: 0 auto;
-}
-
-.hover-text {
-    color: black;
-}
-
-.body_h1 {
-    margin-right: 93px;
-}
-
-.body-span--logo {
-    font-family: "Raleway";
-    color: rgb(57, 141, 250);
-}
-
-.footer-h2--span-logo {
-    font-size: 26px;
-    font-family: "Raleway";
-    color: rgb(57, 141, 250);
-}
-
-
 .div_container--content {
     display: flex;
     justify-content: center;
@@ -108,39 +80,11 @@ body {
 
 }
 
-
-
-footer {
-    padding-top: 60px;
-    padding-left: 215px;
-    margin: 0 auto;
-    height: 1600px;
-    height: 252px;
-    background-color: #2F303A;
+.main_section_div--p {
+    color: #757575;
 }
 
-.footer-h2--span2-logo {
-    font-size: 26px;
-    color: white;
-}
-
-.footer-div {
-
-
-    color: white;
-}
-
-
-li {
-    display: inline-block;
-    margin-right: 30px;
-
-}
-
-
-
-
-.header-section--btn {
+.main-section--btn {
     margin-top: 30px;
     width: 216px;
     height: 50px;
@@ -159,87 +103,38 @@ li {
     box-shadow: 0px 4px 4px 0px #00000026
 }
 
-.header {
-    align-items: center;
+
+.section_about_work--card {
+    position: relative;
+}
+
+.section_about_work--text--wrapper {
+    position: absolute;
+    top: 224px;
+    background-color: #2F303ACC;
+    width: 100%;
+    padding: 27px 0;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.header_nav {
+.section_about_work--text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.section_about_work--div {
     display: flex;
+    gap: 30px;
 }
-
-.header-nav--ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-}
-
-.header-nav--ul a {
-    transition: all .2s;
-    color: black;
-    text-decoration: none;
-
-
-}
-
-.header-nav--ul a:hover {
-    color: rgb(57, 141, 250);
-
-}
-
-
-.header_nav--contact {
-    margin-left: 344px;
-}
-
-.header_nav--contact-a {
-    margin-right: 50px;
-    color: #757575;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .2s;
-
-}
-
-
-.header_nav--contact-a2 {
-    color: #757575;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .2s;
-
-}
-
-
-.header_nav--contact-a:hover {
-    color: #2196F3;
-}
-
-
-.header_nav--contact-a2:hover {
-    color: #2196F3;
-}
-
-.footer_div--p {
-    transition: all .2s;
-    color: white;
-    opacity: 60%;
-}
-
-
-.footer_div--p:hover {
-    color: white;
-    opacity: 100%;
-}
-
-
-.main_section_div--p {
-    color: #757575;
-}
-
-
 
 .section_about_work--h2 {
     font-size: 36px;
@@ -254,12 +149,6 @@ li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-
-
-.section_about_work--img {
-    margin: 0 15px 0 15px;
 }
 
 
@@ -304,6 +193,8 @@ li {
 
 
 .section_about_team--h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 16px;
 
@@ -327,18 +218,45 @@ li {
     width: 206px;
 }
 
-.section_about_team--media:hover:first-child {
-    content: url(/images/instagram2.png);
+.section_about_team--media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 32px;
+
 }
 
-.section_about_team--media:hover:nth-child(2) {
-    content: url(/images/twitter2.png);
+.section_about_team--media--svg:hover svg .bg {
+    fill: #2196f3;
+
 }
 
-.section_about_team--media:hover:nth-child(3) {
-    content: url(/images/facebock2.png);
+.section_about_team--media--svg:hover svg .icon {
+    fill: white;
+
 }
 
-.section_about_team--media:hover:nth-child(4) {
-    content: url(/images/in2.png);
+.main_bottom--logo {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+
+}
+
+.main_container--customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.main_about--customers:hover svg .bg {
+    fill: #2196f3;
+
 }
