@@ -1,0 +1,191 @@
+.backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #00000033;
+    opacity: 1;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+
+.modal_close--wrapper {
+    display: flex;
+    justify-content: end;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.modal_close {
+    position: relative;
+    top: 0;
+    right: 8px;
+    cursor: pointer;
+}
+
+.modal_title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+    margin-bottom: 12px;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form_accept--rules {
+    display: flex;
+}
+
+form label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+}
+
+form input:not([type="checkbox"]) {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #21212133;
+}
+
+.form_field {
+
+    position: relative;
+}
+
+.form_field svg {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+}
+
+form textarea {
+    width: 448px;
+    height: 120px;
+    border: 1px solid #21212133;
+    border-radius: 4px;
+    resize: none;
+    padding: 12px 16px;
+}
+
+
+
+.form_accept--text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-left: 9px;
+
+
+}
+
+
+
+.form_accept--link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2196f3;
+
+}
+
+.form_btn--wrapper {
+    margin-top: 30px;
+}
+
+.form_submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.form_field:focus-within svg g path {
+    fill: #2196f3;
+
+}
+
+.form_field input:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+.form_field textarea:focus {
+    outline: none;
+}
+
+#username {
+    padding: 0 20px 0 40px;
+}
+
+#usertel {
+    padding: 0 20px 0 40px;
+}
+
+#usermail {
+    padding: 0 20px 0 40px;
+}
+

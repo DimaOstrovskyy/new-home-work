@@ -256,7 +256,12 @@
     padding-bottom: 94px;
 }
 
-.main_about--customers:hover svg .bg {
+.main_about--customers svg:hover rect {
+    stroke: #2196f3;
+
+}
+
+.main_about--customers svg:hover path {
     fill: #2196f3;
 
 }
