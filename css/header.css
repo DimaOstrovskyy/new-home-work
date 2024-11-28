@@ -41,6 +41,15 @@ li {
     padding-top: 32px;
     padding-bottom: 32px;
     list-style-type: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 
 }
 
@@ -111,7 +120,3 @@ li {
 .header_nav--contact-right:hover {
     color: #2196F3;
 }
-
-
-
-
