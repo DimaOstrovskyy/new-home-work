@@ -222,7 +222,15 @@
     align-items: center;
     gap: 10px;
     padding-left: 32px;
+    
+}
 
+.section_about_team--media--svg {
+    transition: 1s ease-in-out;
+}
+
+.section_about_team--media--svg:hover {
+    transform: rotateY(360deg);
 }
 
 .section_about_team--media--svg:hover svg .bg {

@@ -59,12 +59,16 @@ footer {
 
 .social--media--svg {
     padding-top: 20px;
+    transition: 1s ease-in-out;
 }
 
 .social--media--svg svg:hover .bg {
     fill: #2196F3;
-    transition: 0.2s;
     cursor: pointer;
+}
+
+.social--media--svg:hover {
+    transform: rotateY(360deg);
 }
 
 .container_svg {
